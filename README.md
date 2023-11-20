@@ -10,9 +10,9 @@ table1 = Data(Col(年龄, index_age), Col(指标), Col(活动水平), Col(性别
 # 391 - 396 创建表格
 table2 = Data(Col(年龄, index_age), Col(性别), Col(指标), Col(元素), Col(孕期))
 
-# 查询表格
+# demo 查询表格
 table1.Get(...)
 
-# 修改表格
+# demo 修改表格
 table1.Set(...)
 ```
