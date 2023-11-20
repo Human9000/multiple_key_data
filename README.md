@@ -11,8 +11,8 @@ table1 = Data(Col(年龄, index_age), Col(指标), Col(活动水平), Col(性别
 table2 = Data(Col(年龄, index_age), Col(性别), Col(指标), Col(元素), Col(孕期))
 
 # 查询表格
-Data.Get(...)
+table1.Get(...)
 
 # 修改表格
-Date.Set(...)
+table1.Set(...)
 ```
